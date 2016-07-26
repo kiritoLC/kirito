@@ -1,0 +1,129 @@
+//
+//  PrefixHeader.pch
+//  product-A
+//
+//  Created by lanou on 16/6/24.
+//  Copyright © 2016年 lanou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define KNaviH 40
+
+#define KGooDDetailURL @"http://api2.pianke.me/group/posts_info"
+
+
+#import "UIView+TWFrame.h"
+
+#define PKCOLOR(R,B,G) [UIColor colorWithRed:(R)/255.0 green:(B)/255.0 blue:(G)/255.0 alpha:1.0]
+
+#define KCommunityDetailURL @"http://api2.pianke.me/group/posts_info"
+
+#define kMoveDistance (kScreenWidth/5.0)
+
+#define KPostLowURL @"http://api2.pianke.me/ting/radio_list"
+
+#define Kradio1 @"http://api2.pianke.me/ting/radio"
+
+#define KradioDetail @"http://api2.pianke.me/ting/radio_detail"
+
+#define Kread @"http://api2.pianke.me/read/columns"
+
+#define kReadDetail @"http://api2.pianke.me/article/info"
+
+#define KReadCollectionDetail @"http://api2.pianke.me/read/columns_detail"
+
+#define kRegistUrl @"http://api2.pianke.me/user/reg"
+
+
+#define kLoginUrl  @"http://api2.pianke.me/user/login"
+
+
+#import "VideoManager.h"
+
+
+#import "RequestManager.h"
+
+
+#import <MJRefresh.h>
+
+
+#import <UIImageView+WebCache.h>
+
+
+#import <AFNetworking.h>
+
+
+#import "MusicDownloadTable.h"
+
+
+#define KPOSTContentURL @"http://api2.pianke.me/comment/get"
+
+
+#define KPostProductURL @"http://api2.pianke.me/pub/shop"
+
+
+
+#define KCommunityURL @"http://api2.pianke.me/group/posts_hotlist"
+
+
+#define kMySqliteName @"良辰美景.sqlite"
+#define kDownloadTable @"叶良辰"
+#import "FMDB.h"
+#import <FMDB.h>
+#import "DBManager.h"
+#import "UserInfoManager.h"
+
+
+#define KreadDeleadPinglun @"http://api2.pianke.me/comment/del"
+
+
+#import <FMDatabase.h>
+
+
+#pragma mark  发表评论列表
+#define KPOSTSetContentURL @"http://api2.pianke.me/comment/add"
+
+
+
+
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKUI/ShareSDK+SSUI.h>
+
+
+
+
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+
+//微信SDK头文件
+#import "WXApi.h"
+
+//新浪微博SDK头文件
+#import "WeiboSDK.h"
+//新浪微博SDK需要在项目Build Settings中的Other Linker Flags添加"-ObjC"
+
+//人人SDK头文件
+#import <RennSDK/RennSDK.h>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
